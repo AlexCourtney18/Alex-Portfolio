@@ -13,7 +13,9 @@
 body {
     color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--primary-color);
 }
+
 
 /*Header Styles*/
 header {
@@ -63,6 +65,20 @@ header nav ul li a:hover, footer ul li a:hover {
     text-shadow: none;
 }
 
+/*Hero Style*/
+.hero {
+    background-image: url("../assets/images/Mclaren.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
 /*footer*/
 footer {
     padding: 20 px, 35px;
@@ -70,7 +86,7 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width:100%; 
+    align-items: center;
 }
 
 footer h2 {
