@@ -67,6 +67,7 @@ header nav ul li a:hover, footer ul li a:hover {
 
 /*Hero Style*/
 .hero {
+    height: 200px;
     background-image: url("../assets/images/Mclaren.jpg");
     background-size: cover;
     background-position: center;
@@ -76,6 +77,16 @@ header nav ul li a:hover, footer ul li a:hover {
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
+}
+
+.hero-text {
+    min-height: 50px;
+    background-color: var(--secondary-color);
+    border: solid 3px var(--primary-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 36px;
+    justify-content: flex-end;
+    align-self: flex-end;
 }
 
 
