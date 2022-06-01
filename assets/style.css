@@ -1,0 +1,80 @@
+:root {
+    --primary-color: #F7A072;
+    --secondary-color: #B5E2FA;
+    --tertiary-color: #373F51;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--tertiary-color);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*Header Styles*/
+header {
+    padding: 20px, 35px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--secondary-color);
+    margin: 0;
+}
+
+header a, footer a, footer p {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+header nav, footer ul {
+    margin: 7px 0;
+}
+
+header nav ul, footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a, footer ul li {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.5vw;
+}
+
+header nav ul li a:hover, footer ul li a:hover {
+    background: var(--primary-color);
+    color: var(--tertiary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+/*footer*/
+footer {
+    padding: 20 px, 35px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--secondary-color);
+    margin: 0;
+}
