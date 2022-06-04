@@ -196,3 +196,34 @@ footer ul li p {
     font-size: 1.5vw;
 }
 
+/*Media Queries*/
+@media screen and (max-width: 980px) {
+    header, footer {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1, footer h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul, footer ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    footer ul li a, footer ul li p {
+        font-size: 20px;
+    }
+
+    .hero {
+        justify-content: center;
+    }
+}
