@@ -68,7 +68,7 @@ header nav ul li a:hover, footer ul li a:hover {
 
 /*Hero Style*/
 .hero {
-    height: 200px;
+    height: 100vh;
     background-image: url("../assets/images/Mclaren.jpg");
     background-size: cover;
     background-position: center;
